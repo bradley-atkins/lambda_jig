@@ -1,4 +1,4 @@
-# Lambda Template
+# Lambda Jig
 
 ---
 

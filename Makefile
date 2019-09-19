@@ -9,7 +9,7 @@ FUNCTION = lambda_handler
 RUNTIME = 'python3.7'
 
 # ------------- ARN of execution role -------------
-LAMBDA_ROLE = arn:aws:iam::410954063198:role/lambda-role
+LAMBDA_ROLE = arn:aws:iam::nnnnnnnnnnnnn:role/lambda-role
 
 # ------------- Basic settings -------------
 # Description as appears in AWS

@@ -9,7 +9,8 @@ FUNCTION = lambda_handler
 RUNTIME = 'python3.7'
 
 # ------------- ARN of execution role -------------
-LAMBDA_ROLE = arn:aws:iam::nnnnnnnnnnnnn:role/lambda-role
+LAMBDA_ROLE = arn:aws:iam::410954063198:role/lambda-role
+# LAMBDA_ROLE = arn:aws:iam::nnnnnnnnnnnn:role/lambda-role
 
 # ------------- Basic settings -------------
 # Description as appears in AWS
@@ -33,7 +34,6 @@ build: clean build_package_tmp zip
 
 build_package_tmp:
 	mkdir -p $(PACKAGE_TMP)
-	pip freeze > requirements.txt
 	pip install -r requirements.txt -t $(PACKAGE_TMP)
 	cp -a ./src/* $(PACKAGE_TMP)
 

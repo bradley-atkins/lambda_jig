@@ -1,0 +1,2 @@
+# Put in any python dependencies you need to
+# deploy to AWS here
